@@ -16,7 +16,7 @@ The environment size is 15 * 15 in which each square is 40 * 40 pixels, and ther
 
 In addition, the environment is designed with *Tkinter*, a standard Python interface to the Tcl/Tk GUI toolkit. Moreover, *Pandas* library for working with tables in algorithms, *Numpy* package for scientific computing and *Matplotlib* plotting library are used. Below figure shows an screenshot of the environment. The position of obstacles and the blocking area around the goal are considered in a way not to be easy for the agent to find an optimal path.
 
-<img src="https://drive.google.com/uc?export=view&id=1K1erGU7y1feCwsHUE8XyMp5JHNlTXHOU" width="500" height="200" alt="RL process" align="middle">
+<img src="https://drive.google.com/uc?export=view&id=1K1erGU7y1feCwsHUE8XyMp5JHNlTXHOU" width="600" height="638" alt="WALL-E environment" align="middle">
 
 This RL environment is modelled with the Markov decision process (MDP), in which state, action and reward sets are *S*, *A* and *R*. The environmental dynamics would be a set of probabilities *p(s', r | s, a)* for all states, actions and rewards. However, the testing environment is deterministic, and there are no stochastic actions.
 
