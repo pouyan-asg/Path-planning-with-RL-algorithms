@@ -1,5 +1,7 @@
 # Global Path Planning of WALL-E with Reinforcement Learning Algorithms to reach EVE!
 
+[![Total alerts](https://img.shields.io/lgtm/alerts/g/pouyan-asg/global-path-planning.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pouyan-asg/global-path-planning/alerts/)
+
 ## Introduction
 
 This project aims to test various Reinforcement Learning (RL) algorithms for the global path planning of a mobile robot. The environment is designed based on the **WALL-E** animation, and the tested algorithms include Q-learning, SARSA, TD(0) learning, and Double Q-learning. Temporal Difference (TD) learning is a combination of Monte Carlo ideas and dynamic programming (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without modelling the environment’s dynamics. Like DP, TD methods update estimates based in part on other learned estimates without waiting for a final outcome (they bootstrap).
