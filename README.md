@@ -4,8 +4,6 @@
 
 This project aims to test various Reinforcement Learning (RL) algorithms for the global path planning of a mobile robot. The environment is designed based on the **WALL-E** animation, and the tested algorithms include Q-learning, SARSA, TD(0) learning, and Double Q-learning. Temporal Difference (TD) learning is a combination of Monte Carlo ideas and dynamic programming (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without modelling the environment’s dynamics. Like DP, TD methods update estimates based in part on other learned estimates without waiting for a final outcome (they bootstrap).
 
-<img src="https://drive.google.com/uc?export=view&id=1Jrch_AzF2O6-om6S_gReQl7mUQzAHrc5" width="286" height="416" alt="WALL-E environment" align="middle">
-
 ## Environment
 
 <p align="justify">
