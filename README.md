@@ -1,6 +1,6 @@
 # Global Path Planning of WALL-E with Reinforcement Learning Algorithms to reach EVE!
 
-[![Total alerts](https://img.shields.io/lgtm/alerts/g/pouyan-asg/global-path-planning.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pouyan-asg/global-path-planning/alerts/)
+[![Language grade: Python](https://img.shields.io/lgtm/grade/python/g/pouyan-asg/global-path-planning.svg?logo=lgtm&logoWidth=18)](https://lgtm.com/projects/g/pouyan-asg/global-path-planning/context:python)
 
 ## Introduction
 
