@@ -4,6 +4,8 @@
 
 This project aims to test various Reinforcement Learning (RL) algorithms for the global path planning of a mobile robot. The environment is designed based on the **WALL-E** animation, and the tested algorithms include Q-learning, SARSA, TD(0) learning, and Double Q-learning. Temporal Difference (TD) learning is a combination of Monte Carlo ideas and dynamic programming (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without modelling the environment’s dynamics. Like DP, TD methods update estimates based in part on other learned estimates without waiting for a final outcome (they bootstrap).
 
+<img src="https://drive.google.com/uc?export=view&id=1Jrch_AzF2O6-om6S_gReQl7mUQzAHrc5" width="286" height="416" alt="WALL-E environment" align="middle">
+
 ## Environment
 
 <p align="justify">
@@ -16,10 +18,17 @@ The environment size is 15 * 15 in which each square is 40 * 40 pixels, and ther
 
 In addition, the environment is designed with *Tkinter*, a standard Python interface to the Tcl/Tk GUI toolkit. Moreover, *Pandas* library for working with tables in algorithms, *Numpy* package for scientific computing and *Matplotlib* plotting library are used. Below figure shows an screenshot of the environment. The position of obstacles and the blocking area around the goal are considered in a way not to be easy for the agent to find an optimal path.
 
-<img src="https://drive.google.com/uc?export=view&id=1K1erGU7y1feCwsHUE8XyMp5JHNlTXHOU" width="600" height="638" alt="WALL-E environment" align="middle">
+<img src="https://drive.google.com/uc?export=view&id=1K1erGU7y1feCwsHUE8XyMp5JHNlTXHOU" width="471" height="486" alt="WALL-E environment" align="middle">
 
 This RL environment is modelled with the Markov decision process (MDP), in which state, action and reward sets are *S*, *A* and *R*. The environmental dynamics would be a set of probabilities *p(s', r | s, a)* for all states, actions and rewards. However, the testing environment is deterministic, and there are no stochastic actions.
 
 <p align="justify">
 The agent (WALL-E) can go up, down, right or left to reach the final goal in training mode. Each time the agent hits an obstacle, it will receive a -5 reward, and the system will reset to the initial point. If the robot reaches the goal, it will receive a massive reward of +100, and the reward is zero for other movements. According to animation, the interest of the WALL-E in a Rubik's cube is considered a motivation. It is not the goal, but it has a -1 reward. Solving this problem can be a good evaluation for some popular RL algorithms regarding the number of obstacles, especially around the goal, environment size and motivation between the path.
   </p>
+
+## Other Sections
+
+As mentioned above, some RL algorithms, namely Q-learning, double Q-learning, SARSA and TD(0), are tested in the WALL-E environment. Also, the Cliff Walking problem from *"Reinforcement Learning: An Introduction"* book by Andrew Barto and Richard S. Sutton is solved with those algorithms. All results and output data are presented in the project's PDF file. 
+You can test them and change the variables or even the environment features. For using this program, Run the **run.py** in each folder.
+
+<img src="https://drive.google.com/uc?export=view&id=1dPZQfJ5Ao-Nc05EKvxP2b7tjIYDwlzao" width="640" height="244" alt="WALL-E environment" align="middle">
