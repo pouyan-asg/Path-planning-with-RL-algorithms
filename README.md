@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to test various Reinforcement Learning (RL) algorithms for the global path planning of a mobile robot. The environment is designed based on the **WALL-E** animation, and the tested algorithms include Q-learning, SARSA, TD(0) learning, and Double Q-learning. Temporal Difference (TD) learning is a combination of Monte Carlo ideas and dynamic programming (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without modelling the environment’s dynamics. Like DP, TD methods update estimates based in part on other learned estimates without waiting for a final outcome (they bootstrap).
+This project aims to test various reinforcement learning (RL) algorithms for the global path planning of a mobile robot. The environment is designed based on the **WALL-E** animation, and the tested algorithms include Q-learning, SARSA, TD(0) learning, and double Q-learning. Temporal Difference (TD) learning is a combination of Monte Carlo ideas and dynamic programming (DP) ideas. Like Monte Carlo methods, TD methods can learn directly from raw experience without modeling the environment’s dynamics. Like DP, TD methods update estimates based in part on other learned estimates without waiting for a final outcome (they bootstrap).
 
 ## Environment
 
@@ -26,7 +26,6 @@ The agent (WALL-E) can go up, down, right or left to reach the final goal in tra
 
 ## Other Sections
 
-As mentioned above, some RL algorithms, namely Q-learning, double Q-learning, SARSA and TD(0), are tested in the WALL-E environment. Also, the Cliff Walking problem from *"Reinforcement Learning: An Introduction"* book by Andrew Barto and Richard S. Sutton is solved with those algorithms. All results and output data are presented in the project's PDF file. 
-You can test them and change the variables or even the environment features. For using this program, Run the **run.py** in each folder.
+As mentioned above, some RL algorithms, namely Q-learning, double Q-learning, SARSA, and TD(0), are tested in the WALL-E environment. Also, the Cliff Walking problem from *"Reinforcement Learning: An Introduction"* book by Andrew Barto and Richard S. Sutton is solved with those algorithms. All results and output data are presented in the project's PDF file.You can test them and change the variables or even the environmental features. For using this program, Run the **run.py** in each folder.
 
 <img src="https://drive.google.com/uc?export=view&id=1dPZQfJ5Ao-Nc05EKvxP2b7tjIYDwlzao" width="640" height="244" alt="WALL-E environment" align="middle">
