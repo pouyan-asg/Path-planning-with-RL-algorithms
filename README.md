@@ -1,4 +1,4 @@
-[![python version](https://img.shields.io/pypi/v/sympy.svg)](https://github.com/)
+
 
 # Global Path Planning of WALL-E with Reinforcement Learning Algorithms to reach EVE!
 
