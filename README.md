@@ -1,4 +1,4 @@
-https://badges.pufler.dev/updated/pouyan-asg/global-path-planning
+[![Updated Badge](https://badges.pufler.dev/updated/pouyan-asg/global-path-planning)](https://badges.pufler.dev)
 
 # Global Path Planning of WALL-E with Reinforcement Learning Algorithms to reach EVE!
 
