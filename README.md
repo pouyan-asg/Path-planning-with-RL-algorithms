@@ -18,7 +18,7 @@ The below figure shows a screenshot of the environment. The position of obstacle
 
 In addition to applying some RL algorithms in the mentioned environment, another test is done in a traditional environment. The second problem is Cliff Walking from *"Reinforcement Learning: An Introduction"* by Andrew Barto and Richard S. Sutton. This challenge is solved with those algorithms, and all results and output data are presented in the project's PDF file. You can test them and change the variables or even the environmental features.
 
-<img src="https://drive.google.com/uc?export=view&id=1dPZQfJ5Ao-Nc05EKvxP2b7tjIYDwlzao" width="640" height="244" alt="WALL-E environment" align="middle">
+<img src="https://drive.google.com/file/d/1RsVrXi22ok_BYnEaNZYYXmdrl1PyQbND/view?usp=sharing" width="640" height="244" alt="WALL-E environment" align="middle">
 
 ### General concept
 
