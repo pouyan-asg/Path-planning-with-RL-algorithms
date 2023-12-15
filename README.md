@@ -12,7 +12,7 @@ The environment is designed with Tkinter, a standard Python interface to the Tcl
 The environment size is 15x15, in which each square is 40x40 pixels, and there are 52 obstacles inside it, including trees, buildings, garbage, road signs, a plant in the boot (based on animation), and a Rubik's cube. The upside left corner (the agent starting position) is (0, 0), and going to the right and down is +X and +Y, respectively. For example, two steps to the right and one step to the down move the agent to the [80, 40] location.
 The below figure shows a screenshot of the environment. The position of obstacles and the blocking area around the goal are considered in such a way that it is not easy for the agent to find an optimal path.
 
-<img src="https://drive.google.com/uc?export=view&id=1K1erGU7y1feCwsHUE8XyMp5JHNlTXHOU" width="471" height="486" alt="WALL-E environment" align="middle">
+![Wall-e environment](env1.png)
 
 ### Environment 2
 
