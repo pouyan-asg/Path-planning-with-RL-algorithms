@@ -16,46 +16,44 @@ The below figure shows a screenshot of the environment. The position of obstacle
 
 ### Environment 2
 
-In addition to applying some RL algorithms in the mentioned environment, another test is done in a traditional environment. The second problem is Cliff Walking from "Reinforcement Learning: An Introduction" by Andrew Barto and Richard S. Sutton. This challenge is solved with those algorithms, and all results and output data are presented in the project's PDF file. You can test them and change the variables or even the environmental features.
+In addition to applying some RL algorithms in the mentioned environment, another test is done in a traditional environment. The second problem is Cliff Walking from *"Reinforcement Learning: An Introduction"* by Andrew Barto and Richard S. Sutton. This challenge is solved with those algorithms, and all results and output data are presented in the project's PDF file. You can test them and change the variables or even the environmental features.
 
 <img src="https://drive.google.com/uc?export=view&id=1dPZQfJ5Ao-Nc05EKvxP2b7tjIYDwlzao" width="640" height="244" alt="WALL-E environment" align="middle">
 
 ### General concept
 
-This RL problem is modeled with the Markov decision process (MDP), in which state, action, and reward sets are S, A, and R. The environmental dynamics would be a set of probabilities p(s', r | s, a) for all states, actions, and rewards. However, the testing environment is deterministic, and there are no stochastic actions.
+This RL problem is modeled with the Markov decision process (MDP), in which state, action, and reward sets are *S*, *A*, and *R*. The environmental dynamics would be a set of probabilities *p(s', r | s, a)* for all states, actions, and rewards. However, the testing environment is deterministic, and there are no stochastic actions.
 The agent can go up, down, right, or left to reach the final goal in training mode. Each time the agent hits an obstacle, it will receive a -5 reward, and the system will reset to the initial point. If the robot reaches the goal, it will receive a massive reward of +100, and the reward is zero for other movements. According to animation, the interest of the WALL-E in a Rubik's cube is considered motivation. It is not the goal, but it has a -1 reward. Solving this problem can be a good evaluation for some popular RL algorithms regarding the number of obstacles, especially around the goal, environment size, and motivation between the paths.
-
 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+It is easier to create a Conda environment and install the below libraries:
 
 ```bash
-pip install foobar
+conda create -n rl_env python=3.9
+conda activate rl_env
+conda install -c anaconda pandas
+conda install -c anaconda numpy
+conda install matplotlib
+conda install -c anaconda tk
+conda install -c anaconda pillow
 ```
 
 ## Usage
 
-```python
-import foobar
+At first, download the repository in your destination folder.
 
-# returns 'words'
-foobar.pluralize('word')
-
-# returns 'geese'
-foobar.pluralize('goose')
-
-# returns 'phenomenon'
-foobar.singularize('phenomena')
+```bash
+git clone https://github.com/pouyan-asg/path-planning-with-RL-algorithms.git
 ```
+Then, go to the main folder and select the algorithm that you want to test.
 
-## Contributing
+```bash
+python run.py
 
-Pull requests are welcome. For major changes, please open an issue first
-to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+```
+The agent starts training like below Gif and after a while, you can see the results. For each algorithm, there are some example results for reference. Also, you can change the learning rate, discount factor, number of iterations, and so on to evaluate the results.
 
 ## License
 
