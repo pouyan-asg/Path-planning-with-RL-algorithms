@@ -55,6 +55,4 @@ python run.py
 ```
 The agent starts training like below Gif and after a while, you can see the results. For each algorithm, there are some example results for reference. Also, you can change the learning rate, discount factor, number of iterations, and so on to evaluate the results.
 
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
+![agent training](training.gif) 
