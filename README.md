@@ -53,6 +53,6 @@ Then, go to the main folder and select the algorithm that you want to test.
 python run.py
 
 ```
-The agent starts training like below Gif and after a while, you can see the results. For each algorithm, there are some example results for reference. Also, you can change the learning rate, discount factor, number of iterations, and so on to evaluate the results.
+The training process of the agent is illustrated in the animated GIF below. Over time, observable results emerge. Reference examples are provided for each algorithm. Additionally, you have the flexibility to modify parameters such as learning rate, discount factor, number of iterations, and more to assess and refine the obtained results.
 
 ![agent training](training.gif) 
