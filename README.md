@@ -28,7 +28,7 @@ The agent can go up, down, right, or left to reach the final goal in training mo
 
 ## Installation
 
-It is easier to create a Conda environment and install the below libraries:
+It is easier to create a Conda environment and install the below libraries (Python version 3.9):
 
 ```bash
 conda create -n rl_env python=3.9
